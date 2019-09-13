@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Student Portal</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="../img/nez-fav.png" />
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/school.css">
+	<link rel="stylesheet" type="text/css" href="../css/news.css">
+	<link rel="stylesheet" type="text/css" href="../css/about.css">
+    <div style="display: none" id="alertBox" class="pop-alert">
+        <div class="popBox">
+                <span id="icon" class=" fa fa-warning"></span>
+                <p id="alertText" class="alert alert-danger">Error</p>
+                <button id="close" class="btn btn-success">OK</button>
+        </div>    
+    </div>
+
+    <style>
+        
+	body{background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/schoolbody.JPG) no-repeat center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    padding-top: 2%;
+    }
+    </style>
+</head>
+<body> 
+	<!-- <section class="head-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<span class="navbar-brand">SCHOOL LOGO</span>
+				</div>
+				<div class="col-md-6 text-right d-none d-sm-block">
+					<div class="row hidden-xs-down">
+						<span class="col-md-6"><span class="head-email">EMAIL:</span> enquire@schools.com</span>
+						<span class="col-md-6"><span class="head-phone">PHONE:</span>+234-81+8374+9899</span>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+	</section> -->
+<!-- <nav class="navbar navbar-expand-lg sticky-top">
+	<div class="container">
+	  <a class="navbar-brand" href="#">Navbar</a>
+	  <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"  style="color: #000; border: 2px solid #fff;">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav m-auto w-100 justify-content-end">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="../admission">Admission</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="../students">Login</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="../contact-us">Contact Us</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="../about-us">About Us</a>
+	      </li>
+	    </ul>
+	  </div>
+  </div>
+</nav> -->
+
+<body>
+    <div class="container">
+        <div class="col-md-7 mx-auto border bg-white" style="margin-top: 120px;">
+            <div class="card mt-2">
+                <div class="card-header">
+                    <h3>Student Login</h3>
+                </div>
+               
+                <div class="card-body">
+                    <form id="form" enctype="multipart/form-data" action="login.php" method="post">
+                                                <div class="input">
+                            <label for="">
+                                <span>Students Id</span>
+                            </label>
+                            <input type="text" name="studentid" class="form-control data"  value=""  placeholder="Students ID">
+                        </div>
+
+                        <div class="input">
+                            <label for="">
+                                <span>Password</span>
+                            </label>
+                            <input type="password" name="password" class="form-control data" value="" placeholder="Password">
+                        </div>
+
+                       
+
+                       
+                        <div class="submit">
+                            <center>
+                                <input id="submit" type="submit" name="submit" value="Login" class="btn btn-success mt-2">
+                            </center>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="card-footer"></div>
+            </div>
+            <h1>
+            
+            </h1>
+            
+        </div>
+        
+    </div>
+</body>
+
+<!-- footer starts here -->
+
+<!-- <div class="footer-bottom-area bg-dark-light section-padding-sm" style="padding-top: 2%;">
+                <div class="container">
+                    <div class="row widgets footer-widgets">
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="single-widget widget-quick-links">
+                                <h5 class="widget-title">About Us</h5>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Meet the Principal</a></li>
+                                    <li><a href="#">The Chief Executive Officer</a></li>
+                                    <li><a href="#">Our Facilities</a></li>
+                                    <li><a href="#">Our Management</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="single-widget widget-quick-links">
+                                <h5 class="widget-title">Admission</h5>
+                                <ul>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Check admission status</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="single-widget widget-contact">
+                                <h5 class="widget-title">Contact Us</h5>
+                                <ul>
+                                    <li class="address">
+                                        <span class="icon"><i class="fa fa-map-marker"></i></span>
+                                        <p class="text-white">Address : Atani Anambra State</p>
+                                    </li>
+                                    <li class="phone">
+                                        <span class="icon"><i class="fa fa-phone"></i></span>
+                                        <p class="text-white">+234 810 00 71679</p>
+                                    </li>
+                                    <li class="fax">
+                                        <span class="icon"><i class="fa fa-fax"></i></span>
+                                        <p class="text-white">+234 810 00 71679</p>
+                                    </li>
+                                    <li class="email">
+                                        <span class="icon"><i class="fa fa-envelope-o"></i></span>
+                                        <p class="text-white">atanicampus@gmail.com</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div><br>
+                </div>
+            </div> -->
+
+
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+    $("#news-slider").owlCarousel({
+        items : 4,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:false
+    });
+});
+var states = document.getElementById('state');
+var lga = document.getElementById('lga');
+states.addEventListener('change', function() {
+  var stateId = states.value;
+  $.ajax({
+      data: {
+          stateId : stateId
+      },
+      url : "proccess.php",
+      method : "POST",
+      success : function (data) {
+          lga.innerHTML = data;
+      }
+  })
+})
+
+var submit = document.getElementById("submit");
+submit.addEventListener('click', function (e) {
+    e.preventDefault();
+    var data = {};
+    document.querySelectorAll(".data").forEach(function (el) {
+        var val = el.value;
+        if(val == ""){
+            document.getElementById('alertText').textContent = el.name.toUpperCase() + " IS EMPTY";
+            document.getElementById('alertBox').style.display = 'block';
+            document.querySelector('.popBox').classList.add('popAnimate')
+            
+            exit();
+        } else {
+            data[el.name] = val;
+        }
+        
+})
+    $.ajax({
+                data: data,
+                url : "admit.php",
+                method : "POST",
+                success : function (data) {
+                    if(data != 'success'){
+                        document.getElementById('alertText').textContent = data;
+                        document.getElementById('alertBox').style.display = 'block';
+                        document.querySelector('.popBox').classList.add('popAnimate');
+                        console.log(data)
+                        // window.location = 'uploadpic.php'
+                    } else{
+                        document.getElementById('alertText').classList.remove('alert-danger');
+                        document.getElementById('alertText').classList.add('alert-success');
+                        document.getElementById('icon').classList.remove('fa-warning');
+                        document.getElementById('icon').classList.add('fa-spinner');
+                        document.getElementById('icon').classList.add('fa-spin');
+                        document.getElementById('alertText').textContent = 'Loading Next Page...';
+                        document.getElementById('alertBox').style.display = 'block';
+                        document.querySelector('.popBox').classList.add('popAnimate');
+                        window.location = 'uploadpic.php';
+                    }
+
+                    console.log(data)
+                }
+            })
+
+});
+
+var close = document.getElementById('close');
+close.addEventListener('click', function (e) {
+    document.getElementById('alertBox').style.display = 'none';
+    document.querySelector('.popBox').classList.remove('popAnimate')
+});
+
+
+
+</script>
+
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

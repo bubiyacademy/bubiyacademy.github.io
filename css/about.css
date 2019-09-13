@@ -1,0 +1,21 @@
+.about-parallax{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/schoolbody.JPG) no-repeat center center fixed;
+	display: table;
+	height: 20%;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 10%;
+}
+.line{
+	width: 60px;	
+	border-top: 4px solid #00b1f4;
+}
+.direction-line{
+	width: 120px;	
+	
+	border-top: 4px solid #00b1f4;
+}
